@@ -1,20 +1,26 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import HomeScreen from './screens/HomeScreen';
+import PlannerScreen from './screens/PlannerScreen';
+import Navigation from './navigation';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <>
+      <Navigation/> 
+       {/* 渲染首页屏幕 */} 
+     
+      {/*  <PlannerScreen/>*/}
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
