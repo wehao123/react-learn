@@ -17,7 +17,7 @@ const Stack= createNativeStackNavigator();
 
 export default function Navigation(){
     //创建一个名为 Navigation 的组件，它定义了应用的导航结构
-    //buttom button navigation
+    //buttom button navigation测试
     return(
         <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
