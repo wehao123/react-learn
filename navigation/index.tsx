@@ -17,6 +17,7 @@ const Stack= createNativeStackNavigator();
 
 export default function Navigation(){
     //创建一个名为 Navigation 的组件，它定义了应用的导航结构
+    //buttom button navigation
     return(
         <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
@@ -28,7 +29,7 @@ export default function Navigation(){
             name="Planner"
             component={PlannerScreen}
         />
-
+        
         </Stack.Navigator>
         
     </NavigationContainer>
